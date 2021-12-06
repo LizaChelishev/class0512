@@ -12,6 +12,6 @@ class Circle:
     def __repr__(self):
         return str(self.__dict__)
 
-    def get_area(self, radius, pie):
-        area = radius ** 2 * pie
-        print(f'The area is {area} ')
+    def get_area(self):
+        area = self.radius ** 2 * Circle.pie
+        print(f'The area is {area}')
